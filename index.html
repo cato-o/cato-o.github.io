@@ -3,30 +3,89 @@
 <html>
     <head>
         <title>YINGJIE WANG</title>
-        <link rel="stylesheet" type = "text/css" href="./CSS/style.css">
+        <link rel="stylesheet" type = "text/css" href="./css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
     </head>
 
     <body>
-        <h1>YINGJIE WANG</h1>
-        <!-- <h1>WANG</h1> -->
-        <div class="row">
-            <div class="column">
-                <img src= "./images/Yingjie.jpg" alt= "This is me!" class= "center">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="/js/index.js"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">YW</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Portfolio
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Projects</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Photography</a>
+                    <a class="dropdown-item" href="#">Visual Arts</a>
+                  </div>
+                </li>
+                <!--
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            -->
             </div>
-            <div class="column">
-                <p>Hi! I'm a first year at Columbia University studying computer engineering.</p>
+        </nav>        
+        
+        <div class = "container">
+            <div class="row">
+                <div class="col-6">
+                    <h1>YINGJIE</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class = "col-8">
+                    <h1>WANG</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                 <img src= "./images/Yingjie.jpg" alt="This is me!" class="center">
+                </div>
+                <div class="col-4">
+                    <p>Hi! I'm a first year at Columbia University studying computer engineering. I'm passionate about human computer interaction, machine learning, and the intersection of CS, art, and engineering.</p>
+                </div>
             </div>
         </div>
-               
+
+        <div>
+            <h2>Experience</h2>
+            <p>AYSI</p>
+            <p>Hackathons</p>
+            <p>Research</p>   
+        </div>
+        
         <div>
             <h2>Interests</h2>
             <p><a href="https://www.instagram.com/ywangart/">Art</a>, 
                 photography, 
-                printmaking, 
+                printmaking, animation,
                 <a href="https://justinvg.myportfolio.com/force-nature">design</a>.</p>    
             <p>Always looking for some good <a href="https://xkcd.com/2407/">bread.</a></p>
-            <p>Here's a floofy cat!</p>
-            <img src="./images/floofy_cat.jpg">
+            
         </div>
         
         <div>
@@ -35,7 +94,7 @@
         </div>
         
         <div class="left">
-            <h3>Let's Chat</h3>
+            <h2>Let's Chat</h2>
             <ul>
                 <li> <a href = "mailto: y.wang7@columbia.edu">Email</a></li>
                 <li> <a href = "https://www.instagram.com/yingjie._.wang/">Instagram</a> </li>
@@ -44,5 +103,8 @@
             </ul>
             
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
