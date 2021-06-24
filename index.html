@@ -2,7 +2,8 @@
 
 <html>
     <head>
-        <title>YINGJIE WANG</title>
+        <title>Yingjie Wang</title>
+        <link rel="favicon" type = "image/png" href = "./favicon.png">
         <link rel="stylesheet" type = "text/css" href="./css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
@@ -11,31 +12,12 @@
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="/js/index.js"></script>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">YW</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Portfolio
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Projects</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Photography</a>
-                    <a class="dropdown-item" href="#">Visual Arts</a>
-                  </div>
-                </li>
+        <nav class="navbar" style="background-color:rgb(3, 45, 65);">
+            <a class="active" href="#home">Yingjie Wang</a>
+            <a href="#about"> About</a>
+            <a href="#projects"> Projects</a>
+            <a href="#art">Artwork</a>
+
                 <!--
                 <li class="nav-item">
                   <a class="nav-link disabled" href="#">Disabled</a>
@@ -51,31 +33,32 @@
         
         <div class = "container">
             <div class="row">
-                <div class="col-6">
-                    <h1>YINGJIE</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class = "col-8">
-                    <h1>WANG</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-6">
+                <div class="col-6 pic">
                  <img src= "./images/Yingjie.jpg" alt="This is me!" class="center">
                 </div>
-                <div class="col-4">
-                    <p>Hi! I'm a first year at Columbia University studying computer engineering. I'm passionate about human computer interaction, machine learning, and the intersection of CS, art, and engineering.</p>
+                <div class="col-6 pic">
+                    <div class="row">
+                        <h1 class="name">Hello!</h1>
+                    </div>
+                    <div class="row pad">
+                        <p class="intro">Freshman at Columbia University studying Computer Engineering</p>
+                        <p class="intro">I'm passionate about human computer interaction, machine learning, and the intersection between CS, art, and engineering.</p>
+                    </div>
                 </div>
+
             </div>
         </div>
 
         <div>
-            <h2>Experience</h2>
+            <h2 id="experience">Experience</h2>
             <p>AYSI</p>
             <p>Hackathons</p>
             <p>Research</p>   
+        </div>
+               
+        <div>
+            <h2 id="projects">Portfolio</h2>
+            <p>Projects | Visual Arts | Photography</p> 
         </div>
         
         <div>
@@ -85,14 +68,8 @@
                 printmaking, animation,
                 <a href="https://justinvg.myportfolio.com/force-nature">design</a>.</p>    
             <p>Always looking for some good <a href="https://xkcd.com/2407/">bread.</a></p>
-            
-        </div>
-        
-        <div>
-            <h2>Portfolio</h2>
-            <p>Projects | Visual Arts | Photography</p> 
-        </div>
-        
+        </div>    
+
         <div class="left">
             <h2>Let's Chat</h2>
             <ul>
@@ -100,6 +77,7 @@
                 <li> <a href = "https://www.instagram.com/yingjie._.wang/">Instagram</a> </li>
                 <li> <a href = "https://www.instagram.com/ywangart/">Art Instagram</a></li>
                 <li> <a href = "https://www.facebook.com/profile.php?id=100013352377992">Facebook</a></li>
+                <li> <a href = "http://linkedin.com/in/yingjie-wang0">LinkedIn</a></li>
             </ul>
             
         </div>
