@@ -13,7 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="/js/index.js"></script>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:rgb(3, 45, 65);">
-            <a class="navbar-brand" href="#">YW</a>
+            <a class="navbar-brand" href="#">YINGJIE WANG</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,16 +21,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
+                  <a class="nav-link" href="html/projects.html">Projects</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="html/about.html">About</a>
+                </li>
+                <!--
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Portfolio
                   </a>
-                  <!--
+                  
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#projects">Projects</a>
                     <div class="dropdown-divider"></div>
@@ -62,6 +66,7 @@
                         <h1 class="name">Hello!</h1>
                     </div>
                     <div class="row pad">
+                        <p class="intro">My name is Yingjie Wang.</p>
                         <p class="intro">Freshman at Columbia University studying Computer Engineering</p>
                         <p class="intro">I'm passionate about human computer interaction, machine learning, and the intersection between CS, art, and engineering.</p>
                     </div>
@@ -70,18 +75,12 @@
             </div>
         </div>
 
-        <div>
-            <h2 id="experience">Experience</h2>
-            <p>AYSI</p>
-            <p>Hackathons</p>
-            <p>Research</p>   
-        </div>
-               
+        <!-- 
         <div>
             <h2 id="projects">Portfolio</h2>
             <p>Projects | Visual Arts | Photography</p> 
         </div>
-        
+
         <div>
             <h2>Interests</h2>
             <p><a href="https://www.instagram.com/ywangart/">Art</a>, 
@@ -90,14 +89,158 @@
                 <a href="https://justinvg.myportfolio.com/force-nature">design</a>.</p>    
             <p>Always looking for some good <a href="https://xkcd.com/2407/">bread.</a></p>
         </div>    
+      -->
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+        }
+        
+        
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+          -ms-flex: 25%; /* IE10 */
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+        </style>
+      <br></br>
+      <br></br>
+      <br></br>
+
+      <div class="name center">Work</div>
+      <br></br>
+      <div class="row"> 
+        <div class="column">
+        </div>
+        <div class="column">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/AYSI Logo.jpg" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">AYSI</p>
+                </div>
+            </div>
+
+            <br></br>
+            <div class="card" style="width: 18rem;">
+              <img class="card-img" src="./images/intfic.png" alt="Card image cap" style="height: auto;">
+              <div class="card-body">
+                <p class="center" style="text-align: center;">Columbia Interactive Fiction</p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img" src="./images/spec.jpg" alt="Card image cap" style="height: auto;">
+            <div class="card-body">
+              <p class="center" style="text-align: center;">Columbia Daily Spectator</p>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        
+
+      
+      <br></br>
+      <div class="name center">Projects</div>
+      <br></br>
+      <div class="row"> 
+        <div class="column">
+        </div>
+        <div class="column">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/foodiscreen.jpg" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">Foodi</p>
+                </div>
+            </div>
+
+            <br></br>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/succLogo.png" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">CryptoSuccs</p>
+                </div>
+            </div>
+
+            <br></br>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/dantescreen.jpg" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">Dante</p>
+                </div>
+            </div>
+
+        </div>
+
+       
+        <div class="column">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/coralscreen.png" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">Coral</p>
+                </div>
+            </div>
+
+            <br></br>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img" src="./images/paintarhome.jpg" alt="Card image cap" style="height: auto;">
+                <div class="card-body">
+                  <p class="center" style="text-align: center;">PaintAR</p>
+                </div>
+            </div>
+
+
+        </div>  
+      
+      </div>
+
 
         <div class="left">
-            <h2>Let's Chat</h2>
+            <div class="name center">Let's Chat</div>
             <ul>
                 <li> <a href = "mailto: y.wang7@columbia.edu">Email</a></li>
                 <li> <a href = "https://www.instagram.com/yingjie._.wang/">Instagram</a> </li>
-                <li> <a href = "https://www.instagram.com/ywangart/">Art Instagram</a></li>
-                <li> <a href = "https://www.facebook.com/profile.php?id=100013352377992">Facebook</a></li>
                 <li> <a href = "http://linkedin.com/in/yingjie-wang0">LinkedIn</a></li>
             </ul>
             
