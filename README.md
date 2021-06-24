@@ -1,2 +1,2 @@
 # cato-o.github.io
-Personal Website
+Personal website web dev practie
