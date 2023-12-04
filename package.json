@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-site",
+  "name": "yw-portfolio",
   "version": "0.1.0",
-  "homepage": "http://cato-o.github.io/",
+  "homepage": "http://cato-o.github.io/cato-o.github.io",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.9.0",
