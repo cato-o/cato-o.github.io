@@ -5,6 +5,7 @@ export const projects = [
     description:
       "Investigated how to add nuance and variety into generations from text-to-image AI models (DALLE) for applications in news illustration.",
     image: "./images/research.png",
+    mediaType: "image",
     link: "https://www.cs.columbia.edu/~chilton/",
   },
   {
@@ -13,7 +14,17 @@ export const projects = [
     description:
       "Pioneered a data scraper extracting crowd diversity metrics from USD (universal scene description) data on feature films. Developed full stack web data viewport features, integrating data visualizations into dashboard utilized by key stakeholders and production executives.",
     image: "./images/wdas.jpg",
+    mediaType: "image",
     link: "",
+  },
+  {
+    title: "UI/UX and Logistics Design",
+    subtitle: "refurnish",
+    description:
+      "Designed an end-to-end secondhand furniture marketplace and delivery platform to reduce furniture waste for a more sustainable NYC.",
+    image: "./images/refurnishLogo.jpg",
+    mediaType: "image",
+    link: "https://youtu.be/AnO-IiImLko",
   },
   {
     title: "VR Training Simulation Game",
@@ -21,6 +32,7 @@ export const projects = [
     description:
       "Built voice activated teleport navigation in hand-tracked VR pizza making training simulator for Meta Quest3, allowing users flexible, hands-free movement controls.",
     image: "./images/pizzaTime.png",
+    mediaType: "image",
     link: "https://youtu.be/hsBdzE6WyjQ",
   },
   {
@@ -29,6 +41,7 @@ export const projects = [
     description:
       "Built a multilevel 2D Unity tower defense game. Developed tower and enemy mechanics, level and gameplay design, animations, and artwork.",
     image: "./images/gnome.png",
+    mediaType: "image",
     link: "https://youtu.be/ShAKwjwg5Co",
   },
   {
@@ -37,6 +50,7 @@ export const projects = [
     description:
       "Built front end user interface for a Chrome extension that translates select vocabulary inline to cultivate immersive foreign language learning during daily Internet browsing.",
     image: "./images/coral.png",
+    mediaType: "image",
     link: "https://devpost.com/software/coral",
   },
   {
@@ -45,8 +59,18 @@ export const projects = [
     description:
       "Illustrated numerous articles for Columbia's student-run newspaper, serving in a variety of leadership roles including as the Head of the Illustrations team.",
     image: "./images/campus.gif",
+    mediaType: "gif",
     link: "https://www.columbiaspectator.com/contributors/Yingjie-Wang/",
   },
+  {
+    title: "moonrabbit",
+    subtitle: "monoprint, projection, 2D digital animation",
+    description:
+      "Multimedia prinmaking installation project. 2D digital figure and scene animation is projected onto physical monoprinted background scrolls, bridging digital and physical to build a space that transcends remembrance and memory.",
+    image: "./images/scrollAnim.mp4",
+    mediaType: "video",
+    link: "",
+  }
 ];
 
 export const testimonials = [
