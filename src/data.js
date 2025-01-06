@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "Research Assistant",
-    subtitle: "Columbia Computational Design Lab",
+    title: "General Technical Director Intern",
+    subtitle: "Walt Disney Animation Studios",
     description:
-      "Investigated how to add nuance and variety into generations from text-to-image AI models (DALLE) for applications in news illustration.",
-    image: "./images/research.png",
+      "Pioneered a data scraper extracting crowd diversity metrics from USD (universal scene description) data on feature films. Developed full stack web data viewport features, integrating data visualizations into dashboard utilized by key stakeholders and production executives.",
+    image: "./images/wdas.jpg",
     mediaType: "image",
-    link: "https://www.cs.columbia.edu/~chilton/",
+    link: "",
   },
   {
     title: "VR Training Simulation Game",
@@ -16,6 +16,18 @@ export const projects = [
     image: "./images/pizzaTime.png",
     mediaType: "image",
     link: "https://youtu.be/hsBdzE6WyjQ",
+  }
+];
+
+export const experiences = [
+  {
+    title: "2D Unity Tower Defense Game",
+    subtitle: "Gnome Garden Defense",
+    description:
+      "Built a multilevel 2D Unity tower defense game. Developed tower and enemy mechanics, level and gameplay design, animations, and artwork.",
+    image: "./images/gnome.png",
+    mediaType: "image",
+    link: "https://youtu.be/ShAKwjwg5Co",
   },
   {
     title: "Coral",
@@ -27,15 +39,6 @@ export const projects = [
     link: "https://devpost.com/software/coral",
   },
   {
-    title: "moonrabbit",
-    subtitle: "monoprint, projection, 2D digital animation",
-    description:
-      "Multimedia printmaking installation project. 2D digital figure and scene animation is projected onto physical monoprinted background scrolls, bridging digital and physical to build a space that transcends remembrance and memory.",
-    image: "./images/scrollAnim.mp4",
-    mediaType: "video",
-    link: "",
-  },
-  {
     title: "Illustrator",
     subtitle: "Columbia Daily Spectator",
     description:
@@ -43,15 +46,6 @@ export const projects = [
     image: "./images/campus.gif",
     mediaType: "gif",
     link: "https://www.columbiaspectator.com/contributors/Yingjie-Wang/",
-  },
-  {
-    title: "General Technical Director Intern",
-    subtitle: "Walt Disney Animation Studios",
-    description:
-      "Pioneered a data scraper extracting crowd diversity metrics from USD (universal scene description) data on feature films. Developed full stack web data viewport features, integrating data visualizations into dashboard utilized by key stakeholders and production executives.",
-    image: "./images/wdas.jpg",
-    mediaType: "image",
-    link: "",
   },
   {
     title: "UI/UX and Logistics Design",
@@ -63,17 +57,26 @@ export const projects = [
     link: "https://youtu.be/AnO-IiImLko",
   },
   {
-    title: "2D Unity Tower Defense Game",
-    subtitle: "Gnome Garden Defense",
+    title: "moonrabbit",
+    subtitle: "monoprint, projection, 2D digital animation",
     description:
-      "Built a multilevel 2D Unity tower defense game. Developed tower and enemy mechanics, level and gameplay design, animations, and artwork.",
-    image: "./images/gnome.png",
-    mediaType: "image",
-    link: "https://youtu.be/ShAKwjwg5Co",
+      "Multimedia printmaking installation project. 2D digital figure and scene animation is projected onto physical monoprinted background scrolls, bridging digital and physical to build a space that transcends remembrance and memory.",
+    image: "./images/scrollAnim.mp4",
+    mediaType: "video",
+    link: "",
   }
 ];
 
-export const job = [
+export const jobs = [
+  {
+    title: "Research Assistant",
+    subtitle: "Columbia Computational Design Lab",
+    description:
+      "Investigated how to add nuance and variety into generations from text-to-image AI models (DALLE) for applications in news illustration.",
+    image: "./images/research.png",
+    mediaType: "image",
+    link: "https://www.cs.columbia.edu/~chilton/",
+  },
   {
     role: "General Technical Director Intern",
     company: "Walt Disney Animation Studios",

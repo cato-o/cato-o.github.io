@@ -16,8 +16,11 @@ export default function About() {
                 Hi! I'm Yingjie.
                 {/* <br className="text m hidden lg:inline-block" /> */}
             </h1>
+            <h2 className="title-font sm:text-3xl text-2xl mb-4 font-bold text-indigo-900">
+                software engineer | technical artist
+            </h2>
             <h2 className="title-font sm:text-xl text-2xl mb-4 font-bold text-slate-800">
-                creative coding | human-computer interaction | computer graphics
+                tools and pipeline · game development · human computer interaction
             </h2>
             <p className="mb-8 leading-relaxed text-indigo-800">
                 I'm passionate about creating human-centered technology that supports and augments human creativity and expression.
