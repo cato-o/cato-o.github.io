@@ -22,6 +22,13 @@ export default function About() {
             <h2 className="title-font sm:text-xl text-2xl mb-4 font-bold text-slate-800">
                 tools and pipeline · game development · human computer interaction
             </h2>
+            <h3 className="title-font sm:text-xl text-xl mb-4 text-slate-800">
+                Master's of Entertainment Technology - Carnegie Mellon University May 2026 <br></br>
+                B.S. Computer Science - Columbia University Feb 2024
+            </h3>
+            <h3 className="title-font sm:text-xl text-2xl mb-4 text-slate-800">
+                
+            </h3>
             <p className="mb-8 leading-relaxed text-indigo-800">
                 I'm passionate about creating human-centered technology that supports and augments human creativity and expression.
                 My work lives at the intersection of computer science, design, and visual arts, seeking to connect, aid, and delight through visual storytelling.
