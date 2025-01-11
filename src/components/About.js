@@ -24,10 +24,10 @@ export default function About() {
             </h2>
             <h3 className="title-font sm:text-xl text-xl mb-4 text-slate-800">
                 Master's of Entertainment Technology - Carnegie Mellon University May 2026 <br></br>
-                B.S. Computer Science - Columbia University Feb 2024
+                B.S. Computer Science - Columbia University Feb 2024 <br></br>
             </h3>
-            <h3 className="title-font sm:text-xl text-2xl mb-4 text-slate-800">
-                
+            <h3 className="title-font sm:text-l text-l mb-4 text-indigo-900">
+                yingjiexwang@gmail.com | 214-793-9728
             </h3>
             <p className="mb-8 leading-relaxed text-indigo-800">
                 I'm passionate about creating human-centered technology that supports and augments human creativity and expression.

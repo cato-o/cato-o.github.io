@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://cato-o.github.io/cato-o.github.io/",
   "private": true,
-  "proxy": "http://localhost:3000", 
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@craco/craco": "^5.9.0",
     "@heroicons/react": "^1.0.1",
