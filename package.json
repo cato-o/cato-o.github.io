@@ -1,7 +1,7 @@
 {
   "name": "yw-portfolio",
   "version": "0.1.0",
-  "homepage": "https://cato-o.github.io/cato-o.github.io/",
+  "homepage": ".",
   "private": true,
   "proxy": "http://localhost:3000",
   "dependencies": {

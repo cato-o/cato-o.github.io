@@ -55,16 +55,16 @@ export const experiences = [
     image: "./images/refurnishLogo.jpg",
     mediaType: "image",
     link: "https://youtu.be/AnO-IiImLko",
-  },
-  {
-    title: "moonrabbit",
-    subtitle: "monoprint, projection, 2D digital animation",
-    description:
-      "Multimedia printmaking installation project. 2D digital figure and scene animation is projected onto physical monoprinted background scrolls, bridging digital and physical to build a space that transcends remembrance and memory.",
-    image: "./images/scrollAnim.mp4",
-    mediaType: "video",
-    link: "",
   }
+  // {
+  //   title: "moonrabbit",
+  //   subtitle: "monoprint, projection, 2D digital animation",
+  //   description:
+  //     "Multimedia printmaking installation project. 2D digital figure and scene animation is projected onto physical monoprinted background scrolls, bridging digital and physical to build a space that transcends remembrance and memory.",
+  //   image: "./images/scrollAnim.mp4",
+  //   mediaType: "video",
+  //   link: "",
+  // }
 ];
 
 export const jobs = [
