@@ -12,6 +12,24 @@ function Media({mediaName, mediaType}) {
   }
 }
 
+function Tag({tag}) {
+  if(tag === "Tools and Pipeline") {
+    return <span class="w3-tag w3-round-large w3-teal ">{tag}</span>
+  }
+  else if(tag === "Game Development") {
+    return <span class="w3-tag w3-round-large w3-blue ">{tag}</span>
+  }
+  else if(tag === "Illustration") {
+    return <span class="w3-tag w3-round-large w3-deep-purple ">{tag}</span>
+  }
+  else if(tag === "Design") {
+    return <span class="w3-tag w3-round-large w3-light-green ">{tag}</span>
+  }
+  else if(tag === "Game Development") {
+    return <span class="w3-tag w3-round-large w3-indigo ">{tag}</span>
+  }
+}
+
 export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -38,10 +56,13 @@ export default function Projects() {
                   mediaType={project.mediaType}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-indigo-300 mb-1">
+                  <Tag
+                    tag={project.tag}
+                  />
+                  <h2 className="tracking-widest text-lg title-font font-medium text-indigo-300 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="title-font text-xl font-medium text-white mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>

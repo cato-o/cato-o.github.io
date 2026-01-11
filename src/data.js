@@ -1,25 +1,67 @@
 export const projects = [
   {
+    title: "Unity Tools and SDK for Proprietary Immersive Media Platform",
+    subtitle: "CAVERN Toolkit",
+    description:
+      "Built editor tools and custom package in Unity 6 to simplify motion tracker workflow and development pipeline for a proprietary immerisve media platform featuring a 270 degree screen and 3D stereoscopic projection, reducing onboarding time by 70%. Working on a team of 6.",
+    image: "./images/CAVERN.png",
+    mediaType: "image",
+    link: "https://projects.etc.cmu.edu/spelunx/",
+    tag: "Tools and Pipeline"
+  },
+  {
     title: "General Technical Director Intern",
     subtitle: "Walt Disney Animation Studios",
     description:
-      "Pioneered a data scraper extracting crowd diversity metrics from USD (universal scene description) data on feature films. Developed full stack web data viewport features, integrating data visualizations into dashboard utilized by key stakeholders and production executives.",
+      "Pioneered a tool to extract crowd diversity metrics from USD (universal scene description) data on feature film production pipeline. Developed full stack web data viewport features, integrating data visualizations into dashboard utilized by key stakeholders and production executives.",
     image: "./images/wdas.jpg",
     mediaType: "image",
     link: "",
+    tag: "Tools and Pipeline"
+  },
+  {
+    title: "3D Unity Simulation Game",
+    subtitle: "Magic Hair Salon",
+    description:
+      "Designed and built an unique node-based hair system to simplify core hair-cutting gameplay mechanic as well as player input controls using an Xbox Adaptive Controller and physical interface. Created in a team of 5 in 2 weeks.",
+    image: "./images/hairSalon.png",
+    mediaType: "image",
+    link: "",
+    tag: "Game Development"
   },
   {
     title: "VR Training Simulation Game",
     subtitle: "Pizza Time",
     description:
-      "Built voice activated teleport navigation in hand-tracked VR pizza making training simulator for Meta Quest3, allowing users flexible, hands-free movement controls.",
+      "Built AI voice-recognition teleport navigation system in hand-tracked VR pizza making training simulator for Meta Quest3, allowing users flexible, hands-free movement controls. Created with a team of 4 in 2 months.",
     image: "./images/pizzaTime.png",
     mediaType: "image",
     link: "https://youtu.be/hsBdzE6WyjQ",
+    tag: "Game Development"
   }
 ];
 
 export const experiences = [
+  {
+    title: "3D Multiplayer Arcade Game",
+    subtitle: "Quack a Tad",
+    description:
+      "Built a 4 player PC game, developed duck and tadpole movement, charge, and death mechanics, scoring system, and overall game infrastructure. Created on a team of 5 in 2 weeks.",
+    image: "./images/duck.png",
+    mediaType: "image",
+    link: "",
+    tag: "Game Development"
+  },
+  {
+    title: "3D Infinite Runner Game",
+    subtitle: "Emotional Baggage",
+    description:
+      "Built a multilevel 2D Unity tower defense game. Developed tower and enemy mechanics, level and gameplay design, animations, and artwork. Created on a team of 6 in 1 week.",
+    image: "./images/emotionalBaggage.png",
+    mediaType: "image",
+    link: "https://oohareddy.itch.io/emotional-baggage",
+    tag: "Game Development"
+  },
   {
     title: "2D Unity Tower Defense Game",
     subtitle: "Gnome Garden Defense",
@@ -28,6 +70,7 @@ export const experiences = [
     image: "./images/gnome.png",
     mediaType: "image",
     link: "https://youtu.be/ShAKwjwg5Co",
+    tag: "Game Development"
   },
   {
     title: "Coral",
@@ -37,6 +80,7 @@ export const experiences = [
     image: "./images/coral.png",
     mediaType: "image",
     link: "https://devpost.com/software/coral",
+    tag: "Front-end Web Development"
   },
   {
     title: "Illustrator",
@@ -46,6 +90,7 @@ export const experiences = [
     image: "./images/campus.gif",
     mediaType: "gif",
     link: "https://www.columbiaspectator.com/contributors/Yingjie-Wang/",
+    tag: "Illustration"
   },
   {
     title: "UI/UX and Logistics Design",
@@ -55,6 +100,7 @@ export const experiences = [
     image: "./images/refurnishLogo.jpg",
     mediaType: "image",
     link: "https://youtu.be/AnO-IiImLko",
+    tag: "Design"
   }
   // {
   //   title: "moonrabbit",
