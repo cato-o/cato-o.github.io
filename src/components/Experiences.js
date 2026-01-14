@@ -47,7 +47,7 @@ export default function Experiences() {
           {experiences.map((experience) => (
 
             <a
-              href={experience.link}
+              href={experience.link ? experience.link : null}
               key={experience.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">

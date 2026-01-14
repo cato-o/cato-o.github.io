@@ -40,14 +40,14 @@ export default function Projects() {
             Project Highlights
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Featured Projects
+            Featured Projects! Click to see the project page!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
 
             <a
-              href={project.link}
+              href={project.link ? project.link : null}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">

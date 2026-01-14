@@ -3,11 +3,31 @@ export const projects = [
     title: "Unity Tools and SDK for Proprietary Immersive Media Platform",
     subtitle: "CAVERN Toolkit",
     description:
-      "Built editor tools and custom package in Unity 6 to simplify motion tracker workflow and development pipeline for a proprietary immerisve media platform featuring a 270 degree screen and 3D stereoscopic projection, reducing onboarding time by 70%. Working on a team of 6.",
+      "Built editor tools and custom package in Unity 6 to simplify motion tracker workflow and project development pipeline for a proprietary immerisve media platform featuring a 270 degree screen and 3D stereoscopic projection, reducing onboarding time by 70%. Created in a team of 6 in 14 weeks.",
     image: "./images/CAVERN.png",
     mediaType: "image",
     link: "https://projects.etc.cmu.edu/spelunx/",
     tag: "Tools and Pipeline"
+  },
+  {
+    title: "Software Research and Development Intern (Story and Editorial Tools)",
+    subtitle: "Pixar Animation Studios",
+    description:
+      "Developed algorithm and diff tool for comparing 2 editorial timelines of OTIO (OpenTimelineIO) format with visual and text annotation, enabling video editors to quickly identify changes between revisions of a feature film sequence and speeding up editorial workflows. Contributed to OTIO open source project.",
+    image: "./images/otiodiff.png",
+    mediaType: "image",
+    link: "https://github.com/AcademySoftwareFoundation/OpenTimelineIO/pull/1922",
+    tag: "Tools and Pipeline"
+  },
+  {
+    title: "Physical Therapy Exercise Games with Smart Shoe Controllers",
+    subtitle: "ReNuShu",
+    description:
+      "Designed and built data processing pipeline, web-app, and gameplay for a set of PT exercise mini-games. Integrated shoe data stream API into Unity, processing live sensor input for gameplay control and performance metrics. Built local web server and UI for PT to control exercise difficulty. Created in a team of 5 in 14 weeks.",
+    image: "./images/renushu.png",
+    mediaType: "image",
+    link: "https://projects.etc.cmu.edu/renushu/",
+    tag: "Game Development"
   },
   {
     title: "General Technical Director Intern",
@@ -18,7 +38,10 @@ export const projects = [
     mediaType: "image",
     link: "",
     tag: "Tools and Pipeline"
-  },
+  }
+];
+
+export const experiences = [
   {
     title: "3D Unity Simulation Game",
     subtitle: "Magic Hair Salon",
@@ -38,10 +61,7 @@ export const projects = [
     mediaType: "image",
     link: "https://youtu.be/hsBdzE6WyjQ",
     tag: "Game Development"
-  }
-];
-
-export const experiences = [
+  },
   {
     title: "3D Multiplayer Arcade Game",
     subtitle: "Quack a Tad",
